@@ -1,4 +1,4 @@
-# lightning-app-boilerplate
+# BTCPAY Lightning App
 
 ## Install
 ```shell
@@ -34,3 +34,10 @@ $ [space] BTCPAY_URL=https://mydomain.com/ BTCPAY_KEY=... BTCPAY_PAIRCODE=... no
 ```
 
 Store the value of "merchant" in a save place, e.g. environment variables
+
+## Environment Variables
+
+```
+export BTCPAY_PRIV_KEY="<YOUR_KEY_HERE>"
+export BTCPAY_MERCHANT_KEY="<YOUR_KEY_HERE>"
+```
